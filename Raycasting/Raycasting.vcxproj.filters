@@ -16,44 +16,14 @@
     <Filter Include="Header Files\SDL">
       <UniqueIdentifier>{73d97ad6-2e14-4564-b182-8f218da942f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Old">
+      <UniqueIdentifier>{cc8c856e-c3b7-4f80-bea6-9ab22b5c2459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Old">
+      <UniqueIdentifier>{0f6cfbb1-c811-45b9-b662-93e31cbba981}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="libraries\SDL2\include\begin_code.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="libraries\SDL2\include\close_code.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\defs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\graphics.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\map.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\ray.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\sprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\textures.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\upng.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\wall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="libraries\SDL2\include\SDL.h">
       <Filter>Header Files\SDL</Filter>
     </ClInclude>
@@ -285,37 +255,73 @@
     <ClInclude Include="libraries\SDL2\include\SDL_vulkan.h">
       <Filter>Header Files\SDL</Filter>
     </ClInclude>
+    <ClInclude Include="src\defs.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\textures.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\upng.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wall.h">
+      <Filter>Header Files\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\SDL2\include\begin_code.h">
+      <Filter>Header Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\SDL2\include\close_code.h">
+      <Filter>Header Files\SDL</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\graphics.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\main.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\map.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\player.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\ray.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\sprite.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\textures.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\upng.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\utils.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
     <ClCompile Include="src\wall.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Old</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
